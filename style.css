@@ -1,0 +1,127 @@
+#Horario {
+  border-collapse: collapse;
+  width: 80%;              
+  margin: 20px auto;       
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;          
+  text-align: center;       
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+#Horario th, #Horario td {
+  border: 2px solid black;
+  padding: 12px 20px;       
+  min-width: 100px;         
+}
+
+#Horario th {
+  background-color:#004080;  
+  font-weight: bold;
+}
+
+#Horario tr:nth-child(even) {
+  background-color: white;  
+}
+
+#Horario tr:hover {
+  background-color: gray; 
+}
+
+
+#per-sch {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#btn {
+      display: inline-block;      
+      padding: 10px 20px;        
+      background-color:#004080; 
+      color: white;             
+      text-decoration: none;     
+      border-radius: 8px;        
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      transition: background 0.3s; 
+      margin: 30px;
+      
+    }
+
+#btn:hover {
+      background-color: #0056b3; 
+    }
+
+#btn:active {
+      background-color: #004080; 
+    }
+
+body{
+  text-align: center;
+  background-color: beige;
+}
+
+
+#Cvdesc{
+  width: 850px;
+  height: 500px;
+}
+
+#inves{
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#hd_h {
+  display: flex;                   
+  align-items: center;             
+  justify-content: space-between;  
+
+  background-color: #004080;    
+  color: #ffffff;               
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25rem;           
+  font-weight: 600;             
+  padding: 1rem 2rem;           
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
+  border-bottom: 3px solid #00264d;
+}
+
+
+footer {
+  background-color: #004080;       /* mismo tono que el header */
+  padding: 1rem;
+  text-align: center;              /* centra los botones */
+  margin-top: 2rem;
+}
+
+.footer-btn {
+  display: inline-block;
+  background-color: #ffffff;       /* fondo claro */
+  color: #004080;                  /* azul para texto */
+  text-decoration: none;           /* quitar subrayado */
+  padding: 0.5rem 1.2rem;
+  margin: 0.3rem;
+  border-radius: 8px;              /* bordes redondeados */
+  font-weight: 600;
+  transition: all 0.3s ease;       /* animación suave */
+}
+
+.footer-btn:hover {
+  background-color: #00264d;       /* azul más oscuro */
+  color: #ffffff;                  /* texto blanco */
+}
+
+#hd_p{
+  background-color: #004080; 
+  color: #ffffff; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 1.25rem; 
+  font-weight: 600; 
+  padding: 1rem 2rem; 
+  align-items: center; 
+  justify-content: space-between; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
+  border-bottom: 3px solid #00264d; 
+  align-items: center; 
+  justify-content: space-between;
+}
